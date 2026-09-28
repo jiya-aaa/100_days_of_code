@@ -1,0 +1,4 @@
+Q36. Write a program to find the HCF (GCD) of two numbers.
+
+#include <stdio.h>
+int main(void) { int a,b,t; scanf("%d %d",&a,&b); while(b){t=a%b;a=b;b=t;} printf("HCF = %d\n",a<0?-a:a); return 0; 
