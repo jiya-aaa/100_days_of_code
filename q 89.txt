@@ -1,0 +1,7 @@
+Q89. Count frequency of a given character in a string.
+
+#include <stdio.h>
+int main(void) {
+    char s[200],c;int f=0;fgets(s,sizeof(s),stdin);scanf(" %c",&c);for(int i=0;s[i];i++)if(s[i]==c)f++;printf("Frequency = %d\n",f);
+    return 0;
+}
