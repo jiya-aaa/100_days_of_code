@@ -1,0 +1,12 @@
+Q50. Write a program to print the following pattern:
+*****
+ ****
+  ***
+   **
+    *
+
+#include <stdio.h>
+int main(void) {
+    for(int i=5;i>=1;i--){for(int s=0;s<5-i;s++)printf(" ");for(int j=0;j<i;j++)printf("*");puts("");}
+    return 0;
+}
